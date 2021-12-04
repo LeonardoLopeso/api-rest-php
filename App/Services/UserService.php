@@ -26,7 +26,7 @@
             // code here...
         }
 
-        public function delete() {
-            // code here...
+        public function delete($id) {
+            return User::delete($id);
         }
     }
